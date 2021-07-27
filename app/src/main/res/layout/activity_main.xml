@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,22 +10,37 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textViewLable"
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/textSize"
-                android:text="@string/textLanguageLable"/>
+                android:layout_weight="1"
+                android:text="@string/textLanguageLable"
+                android:textSize="@dimen/textSize" />
+
             <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textView"
                 android:layout_width="0dp"
-                android:layout_weight="1"
-                android:textSize="@dimen/textSize"
                 android:layout_height="wrap_content"
-                android:text="@string/textLanguage"/>
+                android:layout_weight="1"
+                android:text="@string/textLanguage"
+                android:textSize="@dimen/textSize" />
         </TableRow>
 
         <TableRow
@@ -35,16 +49,17 @@
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/textSize"
-                android:text="@string/textDensityLable"/>
+                android:layout_weight="1"
+                android:text="@string/textDensityLable"
+                android:textSize="@dimen/textSize" />
+
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="0dp"
-                android:layout_weight="1"
-                android:textSize="@dimen/textSize"
                 android:layout_height="wrap_content"
-                android:text="@string/textDensity"/>
+                android:layout_weight="1"
+                android:text="@string/textDensity"
+                android:textSize="@dimen/textSize" />
         </TableRow>
 
         <TableRow
@@ -53,16 +68,17 @@
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/textSize"
-                android:text="@string/textNightModeLable"/>
+                android:layout_weight="1"
+                android:text="@string/textNightModeLable"
+                android:textSize="@dimen/textSize" />
+
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="0dp"
-                android:layout_weight="1"
-                android:textSize="@dimen/textSize"
                 android:layout_height="wrap_content"
-                android:text="@string/textNightMode"/>
+                android:layout_weight="1"
+                android:text="@string/textNightMode"
+                android:textSize="@dimen/textSize" />
         </TableRow>
 
         <TableRow
@@ -71,16 +87,33 @@
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/textSize"
-                android:text="@string/textVersionLable"/>
+                android:layout_weight="1"
+                android:text="@string/textVersionLable"
+                android:textSize="@dimen/textSize" />
+
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="0dp"
-                android:layout_weight="1"
-                android:textSize="@dimen/textSize"
                 android:layout_height="wrap_content"
-                android:text="@string/textVersion"/>
+                android:layout_weight="1"
+                android:text="@string/textVersion"
+                android:textSize="@dimen/textSize" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+            </ScrollView>
         </TableRow>
     </TableLayout>
 

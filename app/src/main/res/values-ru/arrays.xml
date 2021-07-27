@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="version_names">
+        <item>Нугаа</item>
+        <item>Орео</item>
+        <item>Пирог</item>
+        <item>Нугаа</item>
+        <item>Орео</item>
+        <item>Пирог</item>
+    </string-array>
+
+    <integer-array name="version_icons">
+        <item>@drawable/android_nougat</item>
+        <item>@drawable/android_oreo</item>
+        <item>@drawable/android_pie</item>
+        <item>@drawable/android_nougat</item>
+        <item>@drawable/android_oreo</item>
+        <item>@drawable/android_pie</item>
+    </integer-array>
+</resources>

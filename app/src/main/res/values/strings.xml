@@ -1,11 +1,13 @@
 <resources>
     <string name="app_name">Lesson4</string>
     <string name="textLanguageLable">Language</string>
+    <string name="textLanguageLable_java">Language_java</string>
     <string name="textDensityLable">Density</string>
     <string name="textNightModeLable">Night-Mode</string>
     <string name="textVersionLable">Version</string>
 
     <string name="textLanguage">Eng</string>
+    <string name="textLanguage_java">Eng_java</string>
     <string name="textDensity">textDensity</string>
     <string name="textNightMode">textNightMode</string>
     <string name="textVersion">textVersion</string>
