@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="textLanguageLable">Язык</string>
+    <string name="textDensityLable">Плотность</string>
+    <string name="textNightModeLable">Ночной режим</string>
+    <string name="textVersionLable">Версия</string>
+
+
+    <string name="textLanguage">РУ</string>
+
+
+</resources>
